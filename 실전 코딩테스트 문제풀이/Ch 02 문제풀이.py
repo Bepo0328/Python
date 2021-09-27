@@ -1,11 +1,11 @@
-def BackJoon15969():
+def baekJoon15969():
     n = int(input())
     array = list(map(int, input().split()))
 
     result = max(array) - min(array)
     print(result)
 
-def BackJoon10539():
+def baekJoon10539():
     n, b = int(input()), list(map(int, input().split()))
     a = [0] * n
     a[0] = b[0]
@@ -15,7 +15,7 @@ def BackJoon10539():
     for i in a:
         print(i, end=' ')
 
-def BackJoon17269():
+def baekJoon17269():
     n, m = map(int, input().split())
     name1, name2 = input().split()
 
@@ -46,7 +46,7 @@ def BackJoon17269():
     else:
         print("%d%d%%" % (result[0], result[1]))
 
-def BackJoon17389():
+def baekJoon17389():
     n = int(input())
     s = list(input())
 
@@ -62,4 +62,4 @@ def BackJoon17389():
     print(result)
 
 if __name__ == "__main__":
-    BackJoon17389()
+    baekJoon17389()
